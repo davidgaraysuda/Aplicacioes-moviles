@@ -11,6 +11,12 @@
 
 console.log(total([2,4,8]))*/
 
+let displayMessageAnon=function(message:string):string{
+    return  "The message is" + " " + message;
+}
+
+console.log(displayMessageAnon("ADIOS"));
+
 let displayMessage= (message:string)=>
     "The message is" + " " + message;
 
